@@ -20,6 +20,7 @@ namespace ariel
        // Node(const T& v){value=v;}
     	~Node(){delete left;delete right;}
     };
+         // END Node
 
     class iterator {
     private:
@@ -69,7 +70,7 @@ namespace ariel
         bool operator!=(const iterator& other) const {
             return p_currNode != other.p_currNode;
         }
-    };  // END OF CLASS ITERATOR
+    };  // END ITERATOR
 
         Node* _root;
     public:
@@ -141,7 +142,7 @@ namespace ariel
         {
             return this->_root;
         }
-        throw("there is no root for this tree");
+        throw("not fount a root for this tree");
     }
 
      template <typename T>
