@@ -1,9 +1,7 @@
 #include "doctest.h"
-
 #include "BinaryTree.hpp"
 #include <iostream>
 #include <stdexcept>
-#include <vector>
 
 using namespace ariel;
 using namespace std;
